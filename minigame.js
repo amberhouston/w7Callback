@@ -1,3 +1,5 @@
+//button event handler in browser JS
+
 function funBtnClicked() { 
     for (let x = 0; x <= 99; x ++){
 
@@ -29,3 +31,10 @@ function beeBtnClicked() {
  }
  let beeBtn = document.querySelector('#beeBtn');
  beeBtn.addEventListener('click',beeBtnClicked);
+
+
+
+ //setTimeout
+setTimeout(() => {
+        console.log("Waited 5 seconds to greet you!")
+}, 5000);
