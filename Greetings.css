@@ -1,0 +1,65 @@
+nav {
+    font-family: 'Petemoss', cursive;
+    font-size: 32px;
+    opacity: 0.25;
+    transition: all .2s;
+}
+
+nav:hover {
+    opacity: 1;
+    transition: all .2s;
+}
+
+body {
+    background-image: url(https://cdn.choosechicago.com/uploads/2021/10/choose-chicago-homepage-slider-cnt.jpg);
+    background-size: cover;
+}
+
+.mainText {
+    align-items: center;
+    text-align: center;
+    padding-top:  100px;
+}
+
+h2 {
+    text-align: center;
+    border-style: ridge;
+    border-radius:  50px;
+    background-color: white;
+    font-family: 'Petemoss', cursive;
+    font-size: 128pt;
+    margin: 500px;
+}
+
+#Welcome {
+    border-style: ridge;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Petemoss', cursive;
+    font-size: 32pt;
+    border-radius:  50px;
+}
+
+#User {
+    border-style: ridge;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Petemoss', cursive;
+    font-size: 32pt;
+    border-radius:  50px;
+}
+
+#callbackBtn {
+    border-radius: 32px;
+    margin-bottom: 32px;
+    background-color: darkblue;
+    color: white;
+    font-size: 24pt;
+}
+
+.spongebob {
+    height: 300px;
+    padding-left: 800px;
+}

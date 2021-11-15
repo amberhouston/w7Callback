@@ -1,13 +1,26 @@
+
+
+function loading() {
+    document.getElementById("Welcome").innerHTML = "Loading message..."
+    console.log("Loading message");
+
+
+    setTimeout(greet, 5000, 'user', sayName)
+}
+
+
+
 function greet(name, userName) {
-    console.log('Homework by Dat, Ken, and Amber!');
+    document.getElementById("Welcome").innerHTML = "Welcome" + ' ' + name + " to our page!"
+    console.log("Welcome" + ' ' + name + " to our page!");
 
     userName(name);
 }
 
 function sayName(name) {
-    console.log('Welcome' + ' ' + name + " to our page!");
+    document.getElementById("User").innerHTML = "Homework by Dat, Ken, and Amber!"
+    console.log('Homework by Dat, Ken, and Amber!');
 }
 
-setTimeout(greet, 3000, 'User', sayName)
-
-document.getElementById("demo").innerHTML = userName;
+let callbackBtn = document.querySelector('#callbackBtn');
+callbackBtn.addEventListener("click", loading);
